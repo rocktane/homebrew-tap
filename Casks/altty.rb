@@ -7,7 +7,7 @@ cask "altty" do
   desc "Lightweight app switcher that hides apps with no open window"
   homepage "https://github.com/rocktane/altty"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Altty.app"
 
