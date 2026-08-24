@@ -1,6 +1,6 @@
 cask "altty" do
-  version "0.1.0"
-  sha256 "dce940455aedf6524666ce47aa82ea52a2e26a356477796a00ec2b42b71010a4"
+  version "0.1.1"
+  sha256 "34b329fa2b0d4dc686125085282ab60f7b9750546995741957e705accce84f51"
 
   url "https://github.com/rocktane/altty/releases/download/v#{version}/Altty.zip"
   name "Altty"
