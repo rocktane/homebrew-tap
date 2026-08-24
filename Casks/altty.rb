@@ -11,6 +11,13 @@ cask "altty" do
 
   app "Altty.app"
 
+  # Self-signed, not notarized: without this Gatekeeper refuses the downloaded
+  # bundle outright on macOS 15 ("Apple could not verify…").
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Altty.app"]
+  end
+
   uninstall quit: "com.yohan.altty"
 
   zap trash: [
