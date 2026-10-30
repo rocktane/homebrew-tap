@@ -1,6 +1,6 @@
 cask "betterbattery" do
-  version "1.4.2"
-  sha256 "ae38d7ba3bf90ca7dd36780459d82ec23ed2d75773788c5225f6bd2790ea09bf"
+  version "1.4.3"
+  sha256 "516d286e46aafe16a7753b8c16b07a8162e095c73fd9068aa4f3ea30c6334d21"
 
   url "https://github.com/rocktane/betterbattery/releases/download/v#{version}/BetterBattery.zip"
   name "BetterBattery"
