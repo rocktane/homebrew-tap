@@ -1,6 +1,6 @@
 cask "mdeck" do
-  version "0.3.0"
-  sha256 "5411aafab9a4c4269b3e68e84859bd3933850446f0aac624fb2d5b0867dc57fa"
+  version "0.3.1"
+  sha256 "9916827dde5d960cf5ac34fa0fc7f0ed9d3e230aa47d6d6659d28f71ad30e5d6"
 
   url "https://github.com/rocktane/mdeck/releases/download/v#{version}/mdeck.zip"
   name "mdeck"
